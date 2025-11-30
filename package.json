@@ -1,10 +1,10 @@
 {
-  "name": "zk-midnight-sdk",
+  "name": "zk-hydra-sdk",
   "version": "1.0.0",
-  "description": "A zero-knowledge proof SDK for compiling Circom circuits and deploying Solidity verifiers to Midnight.",
+  "description": "A zero-knowledge proof SDK for compiling Circom circuits and deploying Solidity verifiers to Custom Hydra Head.",
   "main": "./bin/index.js",
   "bin": {
-    "zk-midnight-sdk": "./bin/cli.js"
+    "zk-hydra-sdk": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,7 @@
     "zk",
     "circom",
     "snarkjs",
-    "midnight",
+    "hydra",
     "cardano",
     "solidity",
     "zkp"
